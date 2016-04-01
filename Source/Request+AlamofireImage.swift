@@ -203,7 +203,8 @@ extension Request {
             "image/bmp",
             "image/x-bmp",
             "image/x-xbitmap",
-            "image/x-win-bitmap"
+            "image/x-win-bitmap",
+            "image/"
         ]
 
         if let mimeType = response?.MIMEType where acceptableContentTypes.contains(mimeType) {
